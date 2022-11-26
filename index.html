@@ -23,10 +23,13 @@
               type="text"
               name="task"
               placeholder="Nombre de la tarea"
-              class="inputForm"
+              class="inputForm espacios"
               autocomplete="off"
               data-form-input
+              
             />
+
+            <input type="datetime-local" class="espacios" data-form-date placeholder="DD/MM/YYYY">
             <button type="submit" class="btnCreate" data-form-btn>
               Agregar <i class="fas fa-plus-circle"></i>
             </button>
@@ -37,6 +40,18 @@
         </ul>
       </div>
     </main>
+
+    <footer class="footer">
+      <div>
+        <a href="https://lambent-mousse-ca8077.netlify.app/"><h1 class="titulos">Mi portafolio aqui</h1></a>
+        <a href="https://lambent-mousse-ca8077.netlify.app/"><img class="portaF" src="/assets/images.png" alt=""></a>
+      </div>
+      <div>
+        <h1 class="titulos">Creado por Jose Miguel Franco Bonilla</h1>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.2.0/uuid.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
     <script type="module" src="/script.js"></script>
   </body>
 </html>
